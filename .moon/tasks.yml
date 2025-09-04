@@ -14,9 +14,8 @@ tasks:
       - "**/*.js"
 
   test:
-    command: yarn vitest --run
+    command: yarn vitest --run --update
     inputs:
       - index.js
       - index.ts
       - tests/**/*
-
